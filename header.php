@@ -12,7 +12,7 @@
     <header>
                 <div class="container sticky-top" >              
                     <nav class="navbar navbar-expand-lg">
-                        <a> <img class="img-fluid logo" src="img/logo.png" /> </a>
+                        <a href="index.php"> <img class="logo" src="img/logo.png" /> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span><i class="fas fa-bars"></i></span>
                         </button>

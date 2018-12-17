@@ -18,8 +18,10 @@ if(isset($_POST['sub'])){
             <input name="mail" placeholder="email" type="email" tabindex="2" required>
         </fieldset>
         <fieldset>
-            <input name="pass" id="myInput" placeholder="mot de passe" type="password" tabindex="3" required><br>
-            <input type="checkbox" onclick="myFunction()"> <i id="eye" class="fas fa-eye fa-2x"></i>
+            <input type="password" id="myInput" name="pass" placeholder="mot de passe" type="text" tabindex="3"><br>
+            <input type="checkbox" onclick="myFunction()"><br>
+            <i id="eye"class="fas fa-eye fa-2x"></i>
+            <i id="eyeHidden"class="fas fa-eye-slash fa-2x"></i>
         </fieldset>
        
         <fieldset>
@@ -27,18 +29,7 @@ if(isset($_POST['sub'])){
         </fieldset>
     </form> 
 </div>
-<script>
-function myFunction() {
-        var x = document.getElementById("myInput");
-        var eye = document.getElementById("eye");
-        if (x.type === "password") {
-          x.type = "text";
-          
-        } else {
-          x.type = "password";
-        }
-      } 
-</script>
+
 
 <script src="library/bootstrap/js/bootstrap.bundle.js"></script>
 	<script src="library/jQuery.js"></script>

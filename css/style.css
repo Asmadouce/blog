@@ -1,7 +1,9 @@
 
+
+
 .logo
 {
-  width:80px;  
+  width:90px;  
 }
 header
 {
@@ -20,7 +22,7 @@ footer
 .con
 {
     background-color:rgb(226, 65, 156);
-    margin-left:25px;
+    margin-left:15px;
 }
 .newPost
 {

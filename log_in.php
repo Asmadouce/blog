@@ -42,7 +42,9 @@ if ($_POST) {
 
         <fieldset>
             <input type="password" id="myInput" name="pass" placeholder="mot de passe" type="text" tabindex="3"><br>
-            <input type="checkbox" onclick="myFunction()"> <i class="fas fa-eye fa-2x"></i>
+            <input type="checkbox" onclick="myFunction()"><br>
+            <i id="eye"class="fas fa-eye fa-2x"></i>
+            <i id="eyeHidden"class="fas fa-eye-slash fa-2x"></i>
         </fieldset>
 
         <fieldset>
@@ -50,16 +52,7 @@ if ($_POST) {
         </fieldset>
     </form> 
 </div>
-<script>
-function myFunction() {
-        var x = document.getElementById("myInput");
-        if (x.type === "password") {
-          x.type = "text";
-        } else {
-          x.type = "password";
-        }
-      } 
-</script>
+
 
 <script src="library/bootstrap/js/bootstrap.bundle.js"></script>
 	<script src="library/jQuery.js"></script>
