@@ -16,7 +16,7 @@
 					<h2 class="row card-header text-capitalize col-12 text-center">
 						<div class="col-6">Dans la catégorie: <a href="theme.php?id=<?php echo $iddd;?>">
 						<?php  echo $donnees['nom'];?></a></div>
-						<a class='btn' href='update.php?id=<?php echo $id;?>'> modifier </a>
+						
 						<div class="col-4"><?php  echo $donnees['title'];?></div>
 					</h2>
 
@@ -37,11 +37,16 @@
 
 					?>
 					<div class="row">
-						<a href="delete.php?id=<?php echo $id;?>">
+						<a class= "col-3" href="delete.php?id=<?php echo $id;?>">
 							<button type="submit" class="btn" >
 							Supprimer l'Article
 							 </button>
 						</a>
+						<a class='col-3' href='update.php?id=<?php echo $id;?>'> 
+						<button class="btn" >
+						modifier
+						</button>
+						 </a>
     				</div>
 		
 </section>

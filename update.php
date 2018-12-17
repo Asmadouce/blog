@@ -21,11 +21,11 @@ if (isset($_POST['upd'])) {
     <form id="contact" action="update.php" method="post" >  <!-- enctype="multipart/form-data" -->
         <h3>update post</h3>
         <fieldset>
-            <input name="title" type="text" value= '<?php echo $donnees['title']; ?>' >
+            <input name="title" class="form-control" value= '<?php echo $donnees['title']; ?>' >
         </fieldset>
         
         <fieldset>
-            <textarea name="content" type="text" tabindex="2"><?php echo $donnees['content']; ?></textarea>
+            <textarea name="content" class="form-control" rows="15" ><?php echo $donnees['content']; ?></textarea>
         </fieldset>
 
 
@@ -41,3 +41,4 @@ if (isset($_POST['upd'])) {
 	} 
 }
 ?>
+	
